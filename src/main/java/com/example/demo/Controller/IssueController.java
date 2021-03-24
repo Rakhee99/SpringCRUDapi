@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import java.util.List;
 import com.example.demo.dao.IssueRepo;
 import com.example.demo.model.Issue;
-import com.sun.el.stream.Optional;
+//import com.sun.el.stream.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
+//import org.springframework.stereotype.Controller;
 
 @RestController
 public class IssueController
