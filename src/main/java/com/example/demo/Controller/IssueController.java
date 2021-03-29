@@ -28,7 +28,7 @@ public class IssueController
 	{
 		Issue a=repo.getOne(aid);
 		repo.delete(a);
-		return "deleted";
+		return "one row deleted";
 	}
 	@PutMapping(path="/issue")
 	public Issue saveorUpdate(@RequestBody Issue issue)
